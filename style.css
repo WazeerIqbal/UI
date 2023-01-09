@@ -1,0 +1,263 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.container1 {
+  background-image: url("../images/Frame.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.head h1 {
+  position: absolute;
+  /* width: 100vw;
+  height: 188px; */
+  left: 80px;
+  top: 300px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 94px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.head p {
+  position: absolute;
+  width: 70%;
+  text-align: center;
+  height: 60px;
+  left: 250px;
+  top: 500px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.navbar1 ul {
+  display: flex;
+  list-style: none;
+  font-size: 16px;
+  position: absolute;
+  right: 50px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.navbar1 a {
+  text-decoration: none;
+  padding: 15px;
+  color: #ffffff;
+}
+.navbar1 img {
+  width: 20px;
+  height: 15px;
+  border-radius: 5px;
+}
+.downWard {
+  background: white;
+  margin-top: 15px;
+  width: 10px;
+  height: 18px;
+}
+.navbar1 hr {
+  width: 100%;
+  position: absolute;
+  top: 80px;
+}
+
+
+
+.same {
+  position: absolute;
+  max-width: 40%;
+  width: 815px;
+  height: 280px;
+  left: 140px;
+  top: 1109px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #000000;
+  opacity: 0.8;
+}
+.same1 {
+  position: absolute;
+
+  width: 403px;
+  height: 489px;
+  left: 800px;
+  top: 1054px;
+
+  background: url(images/Rectangle\ 5.png) center center no-repeat;
+
+  filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.08));
+  border-radius: 20px;
+}
+.same2 {
+  position: absolute;
+  height: 190px;
+  width: 190px;
+  left: 770px;
+  top: 1014px;
+  background: url(images/Rectangle\ 4.png);
+  opacity: 0.2;
+  border-radius: 20px;
+  z-index: -1;
+}
+.same3 {
+  position: absolute;
+  height: 190px;
+  width: 190px;
+  left: 1050px;
+  top: 1400px;
+  background: url(images/Rectangle\ 4.png);
+  opacity: 0.2;
+  border-radius: 20px;
+  z-index: -1;
+}
+.experties {
+  display: flex;
+  position: absolute;
+  left: 100.48px;
+  top: 1627px;
+}
+.experties1 img {
+  width: 16rem;
+}
+.experties2 h1 {
+  position: relative;
+  top: 6rem;
+  text-align: center;
+}
+.experties2 p {
+  position: relative;
+  top: 7rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+
+  opacity: 0.8;
+}
+
+/* Owl Carsoul */
+
+.container2 {
+  
+  /* background-color: #0B86DC; */
+
+  
+  background: url("../images/bg.png.jpeg");
+  position: absolute;
+  width: 100%;
+  top: 2000px;
+  height: 105vh;
+  background-position: 0 50%;
+  background-size: 100% 450px;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+}
+
+.owl-carousel .item {
+  transition: transform 0.5s;
+  transform: scale(0.6);
+  margin: 0;
+  z-index: -1;
+}
+.owl-carousel .item p{
+  position: relative;
+  top: 100px;
+}
+
+.owl-carousel .item:hover {
+  transition: transform 0.5s;
+  transform: scale(1.1);
+  z-index: 9999;
+  cursor: pointer;
+  
+}
+.owl-item.active {
+  z-index: 1;
+}
+
+.owl-item.active:hover {
+  z-index: 2;
+}
+.owl-carousel .item p {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+  margin-top: -320px;
+
+  opacity: 0.8;
+}
+
+/* Media Qureies For About Us */
+@media screen and (min-width: 1920px) {
+  .same {
+    top: 1400px;
+  }
+  .same1 {
+    width: 603px;
+    height: 619px;
+    left: 1127px;
+    top: 1354px;
+  }
+  .same2 {
+    width: 290px;
+    height: 244px;
+    left: 1077px;
+    top: 1304px;
+  }
+  .same3 {
+    width: 290px;
+    height: 244px;
+    left: 1490px;
+    top: 1779px;
+  }
+  .container1 {
+    height: 1200px;
+    width: 100%;
+  }
+  .experties {
+    top: 2050px;
+  }
+  .container2 {
+    top: 2400px;
+    background-size: 100% 100%;
+    height: 100vh;
+
+  }
+  .owl-carousel .item img {
+    position: relative;
+    top: 100px;
+  }
+  .navbar1 hr {
+    
+    
+    top: 120px;
+  }
+
+}

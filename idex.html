@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="iqbal.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+
+    <!-- Navbar -->
+
+    <div class="container1">
+        <div class="navbar1">
+            <ul>
+                <a href="Home">Home</a>
+                <a href="Experties">Experties</a>
+                <a href="Industries">Industries</a>
+                <a href="Capital structure">Capital structure</a>
+                <a href="People">People</a>
+                <a href="Careers">Careers</a>
+                <a href="About Us">About Us</a>
+                <a href="Contact Us">Contact Us</a>
+                <a href="flag"><img src="images/Flag.png" alt="load"></a>
+                <div class="downWard"></div>
+
+            </ul>
+        <hr>
+
+        </div>
+
+        <hr>
+        <div class="head">
+            <h1>A Strong Strategy For Your Bussiness</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                the industry's standard dummy text ever since the 1500s,</p>
+        </div>
+
+    </div>
+
+    <!-- About Us -->
+
+    <div class="section">
+        <div class="same">
+            <h1>About Us</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting.</p>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to.</p>
+        </div>
+        <div class="same1">
+
+        </div>
+        <div class="same2">
+
+        </div>
+        <div class="same3">
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Experties -->
+
+
+    <div class="experties">
+        <div class="experties1">
+            <img src="images/Boxes.PNG" alt="">
+
+        </div>
+        <div class="experties2">
+            <h1>Experties</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+        </div>
+
+    </div>
+
+
+
+    <div class="container2">
+
+        <div class="owl-carousel owl-theme"  >
+
+            <div class="item" class="autoPlay" >
+                <img src="images/Rectangle 38.png" alt="">
+                <p>Innovation</p>
+            </div>
+            <div class="item" class="autoPlay">
+                <img src="images/Rectangle 40.png" alt="">
+                <p>Data & Analytics</p>
+            </div>
+            <div class="item" class="autoPlay">
+                <img src="images/Rectangle 38.png" alt="">
+                <p>Risk Management </p>
+            </div>
+            <div class="item" class="autoPlay">
+                <img src="images/Rectangle 40.png" alt="">
+                <p>Data & Analytics. </p>
+
+            </div>
+            <div class="item" class="autoPlay">
+                <img src="images/Rectangle 40.png" alt="">
+                <!-- <p>Risk Management </p> -->
+            </div>
+            
+             
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Script -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+
+
+
+
+
+            autoplay: true,
+            
+            autoplayTimeout: 1500,
+
+            margin: 0,
+            loop: true,
+            stagPadding:1,
+
+
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+
+        document.getElementsByClassName("autoPlay").onmouseover.autoplay=false;
+
+    </script>
+
+
+
+
+
+
+</body>
+
+
+</html>
